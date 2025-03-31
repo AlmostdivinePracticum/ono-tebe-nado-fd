@@ -29,12 +29,14 @@
       <a class="header__logo">
         <img class="header__logo-image" src="./images/logo-black.svg" alt="ОНО ТЕБЕ НАДО" />
       </a>
-
-      <div class="contacts contacts_header">
-        <a class="contacts-link" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="contacts-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <address class="contacts-text">наб. Принсенграхт 263- 265, Амстердам</address>
-      </div>
+      
+      <div class="header__contacts">
+        <address class="contacts">
+          <a class="contacts-link" href="tel:+99995555555">+9 999 555 5555</a>
+          <a class="contacts-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <p class="contacts-text">наб. Принсенграхт 263- 265, Амстердам</p>
+        </address>
+      </div>      
     </header>
 
     <main class="content">
@@ -49,7 +51,7 @@
 
         <div class="description">
           <p class="description__text">Аукцион вещей, в которые никто не верил</p>
-          <button class="description__button">Сделать ставку</button>
+          <button type="button" class="description__button">Сделать ставку</button>
         </div>
       </section>
 
@@ -63,7 +65,7 @@
                 <div class="overlay"></div>
                 <h3 class="lot__title">Фильм режиссёра, который бросил киношколу</h3>
                 <p class="lot__text">
-                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка,<br/> если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
                 </p>
               </article>
             </a>
@@ -85,7 +87,7 @@
                 <div class="overlay"></div>
                 <h3 class="lot__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                 <p class="lot__text">
-                  Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из<br/> революционных работ Кандинского?                </p>
+                  Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?                </p>
               </article>
             </a>
           </li>
@@ -94,7 +96,7 @@
         <a class="lots__link" href="#0">посмотреть больше</a>
       </section>
 
-      <div class="content-section about">
+      <section class="content-section about">
         <div class="about__logo">
           <div class="about__image-container">
             <img class="about__image" src="./images/logo-white.svg" alt="ОНО ТЕБЕ НАДО" />
@@ -110,16 +112,17 @@
 на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. 
           </p>
         </div>
-      </div>
+      </section>
     </main>
 
     <footer class="content-section footer">
-      <div class="contacts contacts_footer">
-        <a class="contacts-link" href="tel:+99995555555">+9 999 555 5555</a>
-        <a class="contacts-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <address class="contacts-text">наб. Принсенграхт 263- 265, Амстердам</address>
+      <div class="footer__contacts">
+        <address class="contacts">
+          <a class="contacts-link" href="tel:+99995555555">+9 999 555 5555</a>
+          <a class="contacts-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <p class="contacts-text">наб. Принсенграхт 263- 265, Амстердам</p>
+        </address>
       </div>
-
       <nav class="menu menu_footer">
         <ul class="menu-list">
           <li class="menu-item menu-item_active">
@@ -135,17 +138,23 @@
       </nav>
 
 
-      <div class="footer__social">
-        <a href="#0" target="_blank" class="footer__social-link">
-          <img class="footer__social-icon" src="images/yt.svg" alt="Youtube" />
-        </a>
-        <a href="#0" target="_blank" class="footer__social-link">
-          <img class="footer__social-icon" src="images/vk.svg" alt="VK" />
-        </a>
-        <a href="#0" target="_blank" class="footer__social-link">
-          <img class="footer__social-icon" src="images/pinterest.svg" alt="Pinterest" />
-        </a>
-      </div>
+      <ul class="footer__social">
+        <li>
+          <a href="#0" target="_blank" class="footer__social-link">
+            <img class="footer__social-icon" src="images/yt.svg" alt="Youtube" />
+          </a>
+        </li>
+        <li>
+          <a href="#0" target="_blank" class="footer__social-link">
+            <img class="footer__social-icon" src="images/vk.svg" alt="VK" />
+          </a>
+        </li>
+        <li>
+          <a href="#0" target="_blank" class="footer__social-link">
+            <img class="footer__social-icon" src="images/pinterest.svg" alt="Pinterest" />
+          </a>
+        </li>        
+      </ul>
     </footer>
   </body>
 </html>
