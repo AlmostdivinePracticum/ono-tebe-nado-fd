@@ -225,6 +225,10 @@ address a {
   text-decoration: none;
 }
 
+.lot__link {
+  text-decoration: none;
+}
+
 .lots__link {
   display: inline-block;
   padding: 30px 40px 0;
